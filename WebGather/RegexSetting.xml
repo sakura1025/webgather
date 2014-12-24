@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <urls>
+    <url regename="" encoding=""></url>
+  </urls>
+  <list name="company">
+    <paramregex></paramregex>
+    <listregex></listregex>
+    <nextpageregex></nextpageregex>
+    <page>
+      <regex nextname=""></regex>
+      <regex nextname=""></regex>
+      <regex nextname="product"></regex>
+    </page>
+  </list>
+  <list name="product">
+    <paramregex></paramregex>
+    <listregex></listregex>
+    <nextpageregex></nextpageregex>
+    <page>
+      <regex nextname=""></regex>
+      <regex nextname=""></regex>
+      <regex nextname=""></regex>
+    </page>
+  </list>
+</root>
