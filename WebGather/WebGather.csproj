@@ -100,7 +100,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="log4net.xml" />
+    <Content Include="log4net.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="RegexSetting.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
